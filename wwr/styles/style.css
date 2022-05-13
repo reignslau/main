@@ -6,11 +6,6 @@
     border-radius: 3px 0px 0px 3px;
     background-color: #ccc;
 }
-.card__media img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 body {
     background-color: #fcfbfb; 
 }
@@ -117,12 +112,6 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 10px;
-}
-   .banner-box img {
-    width: 100%;
-    grid-column: 1 / -1;
-    /* the -1 is just a fancy way to say "span all the columns" */
-    grid-row: 1;
 }
    .action {
     grid-column: 1;
