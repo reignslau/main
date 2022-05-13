@@ -8,10 +8,10 @@ body {
 header {
     background-color:rgba(20,30,13, .7);
 }
-nav a:hover {
+footer:hover {
     background-color: black;
 }
-nav a:hover {
+footer:hover {
     background-color: black;
     color: #d9c2a3;
 }
