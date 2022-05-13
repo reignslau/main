@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-#background {
-    height: 725px;
-    width: 725px;
+
+.card {
+    width: 320px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #ccc;
+}
+.card__media img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 body {
     background-color: #fcfbfb; 
