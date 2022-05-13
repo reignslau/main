@@ -1,5 +1,6 @@
 #background {
     height: 725px;
+    width: 725px;
 }
 body {
     background-color: #fcfbfb; 
@@ -15,6 +16,7 @@ nav a:hover {
     color: #d9c2a3;
 }
 .icon {
+    height: 80px;
     width: 80px;
 }
 nav a {
