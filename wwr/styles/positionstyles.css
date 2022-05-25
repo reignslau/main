@@ -1,5 +1,6 @@
 .content1 {
-    /* This is the parent of the activity 1 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .red1 { 
 width: 100px; 
@@ -23,7 +24,9 @@ background-color: blue;
 } 
  /* Activity 2 styles */ 
 .content2 {
-    /* This is the parent of the activity 2 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 .red2 {
 width: 100px; 
@@ -47,7 +50,10 @@ background-color: blue;
 } 
  /* Activity 3 styles */ 
 .content3 {
-    /* This is the parent of the activity 3 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
 }
 .red3 {
 width: 100px; 
@@ -123,7 +129,10 @@ background-color: blue;
  } 
  /* Activity 6 styles */ 
  .content6 {
-    /* This is the parent of the activity 6 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
 }
 .red6 {
 width: 100px; 
